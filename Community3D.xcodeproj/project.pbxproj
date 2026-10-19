@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CF6C82FD10AB6FE328CFDD /* libibl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB66B5B7A4A8803E441EF2D8 /* libibl.xcframework */; };
+		1673B2AB3E9790AFE63439BE /* libutils.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E039D68ED0B27833705EF4 /* libutils.xcframework */; };
+		1734F06E5FEB54275E05FE25 /* Checker-ASTC.glb in Resources */ = {isa = PBXBuildFile; fileRef = 10DB890473F3769D6F930EFE /* Checker-ASTC.glb */; };
+		1E212B1F68E0BDB9EF608F13 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F57675599892A52FA90073 /* CoreTests.swift */; };
+		27D12FDC89E44ED4DE59D180 /* FilamentSurface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7037D5D6BD0114CAC68AF8E6 /* FilamentSurface.mm */; };
+		2BA67E51D8DAF929678EE27F /* PerformanceLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFF0624B0DA07734E01B83 /* PerformanceLab.swift */; };
+		2F5874E848D67DA651EC65C5 /* libfilabridge.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2293B543D67D78EB1625F /* libfilabridge.xcframework */; };
+		31ACF8E72B901B331EB738DA /* libfilament.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470DB5CEFE024D5344DF58DA /* libfilament.xcframework */; };
+		3B8E53B723B347A4F6B5D489 /* libgltfio_core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003125F0B0EA3B4AE20475D4 /* libgltfio_core.xcframework */; };
+		3CE943438A593C2355A6FF05 /* Checker-PNG.glb in Resources */ = {isa = PBXBuildFile; fileRef = 398958B350A0D77E6722E53A /* Checker-PNG.glb */; };
+		4359599DBFCDF96BF23E2B9A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236AABB542A831350E009086 /* App.swift */; };
+		483E3E7B0342DB25751F3FAC /* libgeometry.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99826C0C001DEE21439DEC /* libgeometry.xcframework */; };
+		48B52D7FAB43DA5244A94CF2 /* Fox-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FB5A24FB6912C27B02D3D64 /* Fox-LICENSE.md */; };
+		4AE808AAA35250A7B97674B8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C65680353631895C5B9A38C /* Accelerate.framework */; };
+		4B6F3EBAA15975ADF3C18837 /* MemoryBenchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AE34CC47187642B72BFCE /* MemoryBenchmark.swift */; };
+		5567BE3F40C0F2049BBACFE0 /* libbasis_transcoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D719257D03568BE7CC7A9498 /* libbasis_transcoder.xcframework */; };
+		58D3B25A08254864A15F1751 /* libfilaflat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601B34B94EDAD3831FB22D5A /* libfilaflat.xcframework */; };
+		68157AC8EC59C646DECD1435 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF038E9DC0D5E8B6000E723F /* Metal.framework */; };
+		6EC6824E042D4E485053866A /* libbackend.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764F4850A8DA3E650F821C1 /* libbackend.xcframework */; };
+		718861B968479A8FA963C938 /* ModelDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6469BC78A06A2FA816213AB8 /* ModelDocument.swift */; };
+		8EC15486AC1D00D1F29E7D10 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A5CDD3677EFA411931C7A /* DemoUITests.swift */; };
+		91F9CC3EAE33E1EEF514A26C /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3BABF3F977506F9A2F6245 /* MetalKit.framework */; };
+		940F19F7E546DDA79862449C /* Checker.png in Resources */ = {isa = PBXBuildFile; fileRef = 069E5B404FE3280DC33A9D5D /* Checker.png */; };
+		9961CA91BAA801FB65520214 /* libimage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB4308AAD9F225772E828F9 /* libimage.xcframework */; };
+		9AD267322DB41019ABF38E01 /* libfilamat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A810AB54AC2F2A9A5C01B6B0 /* libfilamat.xcframework */; };
+		9DB4355295A40768E7B3AD94 /* libuberarchive.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDA0C77AA8F5568402D845 /* libuberarchive.xcframework */; };
+		A3320F3A75885FB7C4FE54E9 /* libdracodec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A46F972B03B2C55DB89F8A /* libdracodec.xcframework */; };
+		A42C24B9EC2A0C46743DBD4E /* sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 97AB61DFE8288D364C4DF21C /* sh.txt */; };
+		A51B222910CA3FEE97B5CFF1 /* GLTFSceneKit in Frameworks */ = {isa = PBXBuildFile; productRef = 17D81D5098C9E97E62D83129 /* GLTFSceneKit */; };
+		A7AAF5DD3D821726360FE28F /* TextureLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB9BC10477A9BEE66DC3B5 /* TextureLab.swift */; };
+		B08F4D64485539C9707A671D /* libabseil.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFA3729F305CB30FC0D6C3F /* libabseil.xcframework */; };
+		B326CAABCB28AA67A1AFA469 /* Studio.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 0F093159A486A9A2344F7A56 /* Studio.hdr */; };
+		B464BA8D51DC8EDA75D1B865 /* Checker.astc in Resources */ = {isa = PBXBuildFile; fileRef = FDE175F0EB11353E12E26B57 /* Checker.astc */; };
+		C36B87D3B3584DDE4BEE2325 /* Fox.glb in Resources */ = {isa = PBXBuildFile; fileRef = A6E0D2568B75C91516A8BC3F /* Fox.glb */; };
+		C50F9C0316614E5D30DE04C8 /* libsmol-v.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884CEFFE5AC3037D40FE1FB2 /* libsmol-v.xcframework */; };
+		C5E1B6DDB4115AE1C427181C /* Studio_skybox.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D9D336E3104091E2D9E47D39 /* Studio_skybox.ktx */; };
+		CEECCFCDF9B3067294431196 /* libktxreader.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867085C561D3D315E2383D17 /* libktxreader.xcframework */; };
+		D97301F872ECBDE0FE682462 /* libshaders.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA79887AA53D733500BD05E /* libshaders.xcframework */; };
+		DE6637895BB38423F59A4510 /* libstb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F6B4DAD2DE08AC441AFA29 /* libstb.xcframework */; };
+		E6B70736F8890762FF522B8B /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335A1645750F1D2078DD570 /* FPSMonitor.swift */; };
+		EA603AF8D012B671790A0740 /* DemoAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F0B2BDA09BB3493297F5 /* DemoAuth.swift */; };
+		EF89149885E9812F2D5DA978 /* CommunityShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40DE99EC340D45777E4B5 /* CommunityShell.swift */; };
+		F55DCFEDAFA58B94A1A78803 /* ModelCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CA0381715D2C0167C6145 /* ModelCache.swift */; };
+		F6B02F04351374EDA518F254 /* libzstd.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139E83C0B0FF012284EA895C /* libzstd.xcframework */; };
+		FB09FC0FE0E90B40BB174677 /* ModelBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59740416A396FC362E6D37 /* ModelBrowser.swift */; };
+		FCDFB1E3B1EC1B822D559C99 /* Studio_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 18185CA0ED65FDEB0F8540AC /* Studio_ibl.ktx */; };
+		FF9A9D15708AAB76BAC13202 /* libuberzlib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5E6A904B5CCBE3FF7AFCA /* libuberzlib.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7D0A8400C0741DBD77FC149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE3FAFF5D453132055603DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79066239724CFB579837B603;
+			remoteInfo = Community3D;
+		};
+		E16AC6C9CC7BCFB12FD23A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE3FAFF5D453132055603DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79066239724CFB579837B603;
+			remoteInfo = Community3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003125F0B0EA3B4AE20475D4 /* libgltfio_core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libgltfio_core.xcframework; path = Vendor/filament/lib/libgltfio_core.xcframework; sourceTree = "<group>"; };
+		04F2293B543D67D78EB1625F /* libfilabridge.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libfilabridge.xcframework; path = Vendor/filament/lib/libfilabridge.xcframework; sourceTree = "<group>"; };
+		069E5B404FE3280DC33A9D5D /* Checker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checker.png; sourceTree = "<group>"; };
+		0B3BABF3F977506F9A2F6245 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		0C14AF12FF6B4E409F1D7204 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		0F093159A486A9A2344F7A56 /* Studio.hdr */ = {isa = PBXFileReference; path = Studio.hdr; sourceTree = "<group>"; };
+		0FB5A24FB6912C27B02D3D64 /* Fox-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Fox-LICENSE.md"; sourceTree = "<group>"; };
+		10DB890473F3769D6F930EFE /* Checker-ASTC.glb */ = {isa = PBXFileReference; path = "Checker-ASTC.glb"; sourceTree = "<group>"; };
+		139E83C0B0FF012284EA895C /* libzstd.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libzstd.xcframework; path = Vendor/filament/lib/libzstd.xcframework; sourceTree = "<group>"; };
+		18185CA0ED65FDEB0F8540AC /* Studio_ibl.ktx */ = {isa = PBXFileReference; path = Studio_ibl.ktx; sourceTree = "<group>"; };
+		1A8A5CDD3677EFA411931C7A /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
+		1BB76F1A87FFB984632B4643 /* Community3D.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Community3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDE18B78CD30D021B1E4EF3 /* FilamentSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilamentSurface.h; sourceTree = "<group>"; };
+		236AABB542A831350E009086 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		398958B350A0D77E6722E53A /* Checker-PNG.glb */ = {isa = PBXFileReference; path = "Checker-PNG.glb"; sourceTree = "<group>"; };
+		3BAC3ED4CACE1D2F79FAA5CB /* GLTFSceneKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GLTFSceneKit; path = Vendor/GLTFSceneKit; sourceTree = SOURCE_ROOT; };
+		4304F0B2BDA09BB3493297F5 /* DemoAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuth.swift; sourceTree = "<group>"; };
+		43A46F972B03B2C55DB89F8A /* libdracodec.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libdracodec.xcframework; path = Vendor/filament/lib/libdracodec.xcframework; sourceTree = "<group>"; };
+		470DB5CEFE024D5344DF58DA /* libfilament.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libfilament.xcframework; path = Vendor/filament/lib/libfilament.xcframework; sourceTree = "<group>"; };
+		4A4CA0381715D2C0167C6145 /* ModelCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCache.swift; sourceTree = "<group>"; };
+		5335A1645750F1D2078DD570 /* FPSMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSMonitor.swift; sourceTree = "<group>"; };
+		601B34B94EDAD3831FB22D5A /* libfilaflat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libfilaflat.xcframework; path = Vendor/filament/lib/libfilaflat.xcframework; sourceTree = "<group>"; };
+		6469BC78A06A2FA816213AB8 /* ModelDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDocument.swift; sourceTree = "<group>"; };
+		6CB4308AAD9F225772E828F9 /* libimage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libimage.xcframework; path = Vendor/filament/lib/libimage.xcframework; sourceTree = "<group>"; };
+		7037D5D6BD0114CAC68AF8E6 /* FilamentSurface.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FilamentSurface.mm; sourceTree = "<group>"; };
+		7764F4850A8DA3E650F821C1 /* libbackend.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libbackend.xcframework; path = Vendor/filament/lib/libbackend.xcframework; sourceTree = "<group>"; };
+		7A59740416A396FC362E6D37 /* ModelBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBrowser.swift; sourceTree = "<group>"; };
+		7DA79887AA53D733500BD05E /* libshaders.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libshaders.xcframework; path = Vendor/filament/lib/libshaders.xcframework; sourceTree = "<group>"; };
+		867085C561D3D315E2383D17 /* libktxreader.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libktxreader.xcframework; path = Vendor/filament/lib/libktxreader.xcframework; sourceTree = "<group>"; };
+		884CEFFE5AC3037D40FE1FB2 /* libsmol-v.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "libsmol-v.xcframework"; path = "Vendor/filament/lib/libsmol-v.xcframework"; sourceTree = "<group>"; };
+		8C65680353631895C5B9A38C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8EDFF0624B0DA07734E01B83 /* PerformanceLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceLab.swift; sourceTree = "<group>"; };
+		8FA5E6A904B5CCBE3FF7AFCA /* libuberzlib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libuberzlib.xcframework; path = Vendor/filament/lib/libuberzlib.xcframework; sourceTree = "<group>"; };
+		8FA80D0D80A3F97EEA710DB5 /* ControlledTextureProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlledTextureProvider.h; sourceTree = "<group>"; };
+		97AB61DFE8288D364C4DF21C /* sh.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sh.txt; sourceTree = "<group>"; };
+		98E039D68ED0B27833705EF4 /* libutils.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libutils.xcframework; path = Vendor/filament/lib/libutils.xcframework; sourceTree = "<group>"; };
+		A6E0D2568B75C91516A8BC3F /* Fox.glb */ = {isa = PBXFileReference; path = Fox.glb; sourceTree = "<group>"; };
+		A810AB54AC2F2A9A5C01B6B0 /* libfilamat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libfilamat.xcframework; path = Vendor/filament/lib/libfilamat.xcframework; sourceTree = "<group>"; };
+		AEEB9BC10477A9BEE66DC3B5 /* TextureLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLab.swift; sourceTree = "<group>"; };
+		C2F6B4DAD2DE08AC441AFA29 /* libstb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libstb.xcframework; path = Vendor/filament/lib/libstb.xcframework; sourceTree = "<group>"; };
+		C3D40DE99EC340D45777E4B5 /* CommunityShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityShell.swift; sourceTree = "<group>"; };
+		C7F57675599892A52FA90073 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		CA3613EA7FCC56C7A77F8134 /* Community3DTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = Community3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFA3729F305CB30FC0D6C3F /* libabseil.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libabseil.xcframework; path = Vendor/filament/lib/libabseil.xcframework; sourceTree = "<group>"; };
+		CE99826C0C001DEE21439DEC /* libgeometry.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libgeometry.xcframework; path = Vendor/filament/lib/libgeometry.xcframework; sourceTree = "<group>"; };
+		D719257D03568BE7CC7A9498 /* libbasis_transcoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libbasis_transcoder.xcframework; path = Vendor/filament/lib/libbasis_transcoder.xcframework; sourceTree = "<group>"; };
+		D8EDA0C77AA8F5568402D845 /* libuberarchive.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libuberarchive.xcframework; path = Vendor/filament/lib/libuberarchive.xcframework; sourceTree = "<group>"; };
+		D9D336E3104091E2D9E47D39 /* Studio_skybox.ktx */ = {isa = PBXFileReference; path = Studio_skybox.ktx; sourceTree = "<group>"; };
+		DB66B5B7A4A8803E441EF2D8 /* libibl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libibl.xcframework; path = Vendor/filament/lib/libibl.xcframework; sourceTree = "<group>"; };
+		DE9AE34CC47187642B72BFCE /* MemoryBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryBenchmark.swift; sourceTree = "<group>"; };
+		F38A8F322ECB49A1900D745C /* Community3DUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = Community3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE175F0EB11353E12E26B57 /* Checker.astc */ = {isa = PBXFileReference; path = Checker.astc; sourceTree = "<group>"; };
+		FF038E9DC0D5E8B6000E723F /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607A61080AEA2EC33F61AB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51B222910CA3FEE97B5CFF1 /* GLTFSceneKit in Frameworks */,
+				31ACF8E72B901B331EB738DA /* libfilament.xcframework in Frameworks */,
+				6EC6824E042D4E485053866A /* libbackend.xcframework in Frameworks */,
+				2F5874E848D67DA651EC65C5 /* libfilabridge.xcframework in Frameworks */,
+				58D3B25A08254864A15F1751 /* libfilaflat.xcframework in Frameworks */,
+				06CF6C82FD10AB6FE328CFDD /* libibl.xcframework in Frameworks */,
+				483E3E7B0342DB25751F3FAC /* libgeometry.xcframework in Frameworks */,
+				1673B2AB3E9790AFE63439BE /* libutils.xcframework in Frameworks */,
+				3B8E53B723B347A4F6B5D489 /* libgltfio_core.xcframework in Frameworks */,
+				A3320F3A75885FB7C4FE54E9 /* libdracodec.xcframework in Frameworks */,
+				9DB4355295A40768E7B3AD94 /* libuberarchive.xcframework in Frameworks */,
+				DE6637895BB38423F59A4510 /* libstb.xcframework in Frameworks */,
+				CEECCFCDF9B3067294431196 /* libktxreader.xcframework in Frameworks */,
+				5567BE3F40C0F2049BBACFE0 /* libbasis_transcoder.xcframework in Frameworks */,
+				9961CA91BAA801FB65520214 /* libimage.xcframework in Frameworks */,
+				FF9A9D15708AAB76BAC13202 /* libuberzlib.xcframework in Frameworks */,
+				F6B02F04351374EDA518F254 /* libzstd.xcframework in Frameworks */,
+				9AD267322DB41019ABF38E01 /* libfilamat.xcframework in Frameworks */,
+				D97301F872ECBDE0FE682462 /* libshaders.xcframework in Frameworks */,
+				C50F9C0316614E5D30DE04C8 /* libsmol-v.xcframework in Frameworks */,
+				B08F4D64485539C9707A671D /* libabseil.xcframework in Frameworks */,
+				68157AC8EC59C646DECD1435 /* Metal.framework in Frameworks */,
+				91F9CC3EAE33E1EEF514A26C /* MetalKit.framework in Frameworks */,
+				4AE808AAA35250A7B97674B8 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B970DCA90538695266E07E6 = {
+			isa = PBXGroup;
+			children = (
+				C476A2921BE3B5DB3D5B279D /* App */,
+				71B26EF13384B4870F2E5A49 /* Packages */,
+				BD1637EB7E3047131B3E2AB0 /* Tests */,
+				5F6509424A7535B7253C530B /* UITests */,
+				B814792B51F86BC009B0BF2D /* Frameworks */,
+				3A5E38AE5290DF9AF773413E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A5E38AE5290DF9AF773413E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BB76F1A87FFB984632B4643 /* Community3D.app */,
+				CA3613EA7FCC56C7A77F8134 /* Community3DTests.xctest */,
+				F38A8F322ECB49A1900D745C /* Community3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3FCAE63251A950191B0993 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5335A1645750F1D2078DD570 /* FPSMonitor.swift */,
+				DE9AE34CC47187642B72BFCE /* MemoryBenchmark.swift */,
+				4A4CA0381715D2C0167C6145 /* ModelCache.swift */,
+				6469BC78A06A2FA816213AB8 /* ModelDocument.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5F6509424A7535B7253C530B /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A8A5CDD3677EFA411931C7A /* DemoUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		71851E92EE871A195F1553D3 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				C3D40DE99EC340D45777E4B5 /* CommunityShell.swift */,
+				4304F0B2BDA09BB3493297F5 /* DemoAuth.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		71B26EF13384B4870F2E5A49 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3BAC3ED4CACE1D2F79FAA5CB /* GLTFSceneKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		94E1DB0F5E9A76E9EA31AC1C /* Filament */ = {
+			isa = PBXGroup;
+			children = (
+				0C14AF12FF6B4E409F1D7204 /* Bridge.h */,
+				8FA80D0D80A3F97EEA710DB5 /* ControlledTextureProvider.h */,
+				1BDE18B78CD30D021B1E4EF3 /* FilamentSurface.h */,
+				7037D5D6BD0114CAC68AF8E6 /* FilamentSurface.mm */,
+			);
+			path = Filament;
+			sourceTree = "<group>";
+		};
+		B0F06736C912EB223B6482CA /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				7A59740416A396FC362E6D37 /* ModelBrowser.swift */,
+				8EDFF0624B0DA07734E01B83 /* PerformanceLab.swift */,
+				AEEB9BC10477A9BEE66DC3B5 /* TextureLab.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		B814792B51F86BC009B0BF2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C65680353631895C5B9A38C /* Accelerate.framework */,
+				CBFA3729F305CB30FC0D6C3F /* libabseil.xcframework */,
+				7764F4850A8DA3E650F821C1 /* libbackend.xcframework */,
+				D719257D03568BE7CC7A9498 /* libbasis_transcoder.xcframework */,
+				43A46F972B03B2C55DB89F8A /* libdracodec.xcframework */,
+				04F2293B543D67D78EB1625F /* libfilabridge.xcframework */,
+				601B34B94EDAD3831FB22D5A /* libfilaflat.xcframework */,
+				A810AB54AC2F2A9A5C01B6B0 /* libfilamat.xcframework */,
+				470DB5CEFE024D5344DF58DA /* libfilament.xcframework */,
+				CE99826C0C001DEE21439DEC /* libgeometry.xcframework */,
+				003125F0B0EA3B4AE20475D4 /* libgltfio_core.xcframework */,
+				DB66B5B7A4A8803E441EF2D8 /* libibl.xcframework */,
+				6CB4308AAD9F225772E828F9 /* libimage.xcframework */,
+				867085C561D3D315E2383D17 /* libktxreader.xcframework */,
+				7DA79887AA53D733500BD05E /* libshaders.xcframework */,
+				884CEFFE5AC3037D40FE1FB2 /* libsmol-v.xcframework */,
+				C2F6B4DAD2DE08AC441AFA29 /* libstb.xcframework */,
+				D8EDA0C77AA8F5568402D845 /* libuberarchive.xcframework */,
+				8FA5E6A904B5CCBE3FF7AFCA /* libuberzlib.xcframework */,
+				98E039D68ED0B27833705EF4 /* libutils.xcframework */,
+				139E83C0B0FF012284EA895C /* libzstd.xcframework */,
+				FF038E9DC0D5E8B6000E723F /* Metal.framework */,
+				0B3BABF3F977506F9A2F6245 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1637EB7E3047131B3E2AB0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7F57675599892A52FA90073 /* CoreTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C476A2921BE3B5DB3D5B279D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				236AABB542A831350E009086 /* App.swift */,
+				71851E92EE871A195F1553D3 /* Community */,
+				4B3FCAE63251A950191B0993 /* Core */,
+				B0F06736C912EB223B6482CA /* Demos */,
+				94E1DB0F5E9A76E9EA31AC1C /* Filament */,
+				F4CAD87DE3A6E396AD08B0EB /* Resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F4CAD87DE3A6E396AD08B0EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10DB890473F3769D6F930EFE /* Checker-ASTC.glb */,
+				398958B350A0D77E6722E53A /* Checker-PNG.glb */,
+				FDE175F0EB11353E12E26B57 /* Checker.astc */,
+				069E5B404FE3280DC33A9D5D /* Checker.png */,
+				0FB5A24FB6912C27B02D3D64 /* Fox-LICENSE.md */,
+				A6E0D2568B75C91516A8BC3F /* Fox.glb */,
+				97AB61DFE8288D364C4DF21C /* sh.txt */,
+				18185CA0ED65FDEB0F8540AC /* Studio_ibl.ktx */,
+				D9D336E3104091E2D9E47D39 /* Studio_skybox.ktx */,
+				0F093159A486A9A2344F7A56 /* Studio.hdr */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E9C71C39F90F6B5552BEBCF /* Community3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0EA2D9B720AAC7463CE653 /* Build configuration list for PBXNativeTarget "Community3DTests" */;
+			buildPhases = (
+				02E2E4D67A1DC1D214500C64 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096B2D3D751DDF2F2998772F /* PBXTargetDependency */,
+			);
+			name = Community3DTests;
+			packageProductDependencies = (
+			);
+			productName = Community3DTests;
+			productReference = CA3613EA7FCC56C7A77F8134 /* Community3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E4B751E77EEA26965B38286 /* Community3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586FD4034DC16BFB75B626C2 /* Build configuration list for PBXNativeTarget "Community3DUITests" */;
+			buildPhases = (
+				A10B87AA3B3CB3E37866E7F4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F39DC3A233A3734A564C568 /* PBXTargetDependency */,
+			);
+			name = Community3DUITests;
+			packageProductDependencies = (
+			);
+			productName = Community3DUITests;
+			productReference = F38A8F322ECB49A1900D745C /* Community3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		79066239724CFB579837B603 /* Community3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756277227C30DC5002A8FAAD /* Build configuration list for PBXNativeTarget "Community3D" */;
+			buildPhases = (
+				AC8C34738498BB1674551784 /* Sources */,
+				997091417FC4F1D0197810ED /* Resources */,
+				607A61080AEA2EC33F61AB9F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Community3D;
+			packageProductDependencies = (
+				17D81D5098C9E97E62D83129 /* GLTFSceneKit */,
+			);
+			productName = Community3D;
+			productReference = 1BB76F1A87FFB984632B4643 /* Community3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE3FAFF5D453132055603DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1E9C71C39F90F6B5552BEBCF = {
+						ProvisioningStyle = Automatic;
+					};
+					6E4B751E77EEA26965B38286 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79066239724CFB579837B603;
+					};
+					79066239724CFB579837B603 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D431BBDE03022D45013FF97F /* Build configuration list for PBXProject "Community3D" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1B970DCA90538695266E07E6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D6C9568FDAB59C4FD76815BC /* XCLocalSwiftPackageReference "Vendor/GLTFSceneKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3A5E38AE5290DF9AF773413E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79066239724CFB579837B603 /* Community3D */,
+				1E9C71C39F90F6B5552BEBCF /* Community3DTests */,
+				6E4B751E77EEA26965B38286 /* Community3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		997091417FC4F1D0197810ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1734F06E5FEB54275E05FE25 /* Checker-ASTC.glb in Resources */,
+				3CE943438A593C2355A6FF05 /* Checker-PNG.glb in Resources */,
+				B464BA8D51DC8EDA75D1B865 /* Checker.astc in Resources */,
+				940F19F7E546DDA79862449C /* Checker.png in Resources */,
+				48B52D7FAB43DA5244A94CF2 /* Fox-LICENSE.md in Resources */,
+				C36B87D3B3584DDE4BEE2325 /* Fox.glb in Resources */,
+				B326CAABCB28AA67A1AFA469 /* Studio.hdr in Resources */,
+				FCDFB1E3B1EC1B822D559C99 /* Studio_ibl.ktx in Resources */,
+				C5E1B6DDB4115AE1C427181C /* Studio_skybox.ktx in Resources */,
+				A42C24B9EC2A0C46743DBD4E /* sh.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E2E4D67A1DC1D214500C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E212B1F68E0BDB9EF608F13 /* CoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10B87AA3B3CB3E37866E7F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC15486AC1D00D1F29E7D10 /* DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8C34738498BB1674551784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4359599DBFCDF96BF23E2B9A /* App.swift in Sources */,
+				EF89149885E9812F2D5DA978 /* CommunityShell.swift in Sources */,
+				EA603AF8D012B671790A0740 /* DemoAuth.swift in Sources */,
+				E6B70736F8890762FF522B8B /* FPSMonitor.swift in Sources */,
+				27D12FDC89E44ED4DE59D180 /* FilamentSurface.mm in Sources */,
+				4B6F3EBAA15975ADF3C18837 /* MemoryBenchmark.swift in Sources */,
+				FB09FC0FE0E90B40BB174677 /* ModelBrowser.swift in Sources */,
+				F55DCFEDAFA58B94A1A78803 /* ModelCache.swift in Sources */,
+				718861B968479A8FA963C938 /* ModelDocument.swift in Sources */,
+				2BA67E51D8DAF929678EE27F /* PerformanceLab.swift in Sources */,
+				A7AAF5DD3D821726360FE28F /* TextureLab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096B2D3D751DDF2F2998772F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79066239724CFB579837B603 /* Community3D */;
+			targetProxy = D7D0A8400C0741DBD77FC149 /* PBXContainerItemProxy */;
+		};
+		1F39DC3A233A3734A564C568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79066239724CFB579837B603 /* Community3D */;
+			targetProxy = E16AC6C9CC7BCFB12FD23A04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10532FA4C1B86F9880007420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27BD0B000B028AA78874323C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.community3d.Community3DTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Community3D.app/Community3D";
+			};
+			name = Release;
+		};
+		45E2202D78677C499FFF4705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		650785869A38C043CC21EA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.community3d.Community3DUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Community3D;
+			};
+			name = Debug;
+		};
+		6C9F627A7EC80F349608351E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.community3d.Community3DUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Community3D;
+			};
+			name = Release;
+		};
+		775315F696C9F0666FFD3FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Vendor/filament/lib\"",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Vendor/filament/include";
+				INFOPLIST_KEY_CFBundleDisplayName = "3D Lab";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.community3d.demos;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = App/Filament/Bridge.h;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF0263F8ED8586A936A20062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.community3d.Community3DTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Community3D.app/Community3D";
+			};
+			name = Debug;
+		};
+		D668C5B3EAC88460D230D233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Vendor/filament/lib\"",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Vendor/filament/include";
+				INFOPLIST_KEY_CFBundleDisplayName = "3D Lab";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.community3d.demos;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = App/Filament/Bridge.h;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		586FD4034DC16BFB75B626C2 /* Build configuration list for PBXNativeTarget "Community3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650785869A38C043CC21EA3C /* Debug */,
+				6C9F627A7EC80F349608351E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		756277227C30DC5002A8FAAD /* Build configuration list for PBXNativeTarget "Community3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775315F696C9F0666FFD3FAF /* Debug */,
+				D668C5B3EAC88460D230D233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D0EA2D9B720AAC7463CE653 /* Build configuration list for PBXNativeTarget "Community3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0263F8ED8586A936A20062 /* Debug */,
+				27BD0B000B028AA78874323C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D431BBDE03022D45013FF97F /* Build configuration list for PBXProject "Community3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E2202D78677C499FFF4705 /* Debug */,
+				10532FA4C1B86F9880007420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D6C9568FDAB59C4FD76815BC /* XCLocalSwiftPackageReference "Vendor/GLTFSceneKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/GLTFSceneKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17D81D5098C9E97E62D83129 /* GLTFSceneKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GLTFSceneKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EFE3FAFF5D453132055603DF /* Project object */;
+}

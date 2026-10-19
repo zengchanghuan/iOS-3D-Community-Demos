@@ -1,0 +1,24 @@
+[
+  {
+    "context": "library",
+    "source": "fps-library-3143346A-A58F-4DA3-BE3C-5AAB448C9790.json",
+    "duration_s": 15.38333333330229,
+    "intervals": 876,
+    "average_callback_hz": 56.94474539556454,
+    "median_ms": 16.666666604578495,
+    "p95_ms": 16.66666683740914,
+    "max_ms": 307.2071250062436,
+    "over_20ms_percent": 1.5981735159817352
+  },
+  {
+    "context": "model",
+    "source": "fps-model-5D0C84D7-3F22-49B7-9670-9BAEF7D681EA.json",
+    "duration_s": 8.492301041493192,
+    "intervals": 494,
+    "average_callback_hz": 58.170335411607184,
+    "median_ms": 16.666666604578495,
+    "p95_ms": 16.66666683740914,
+    "max_ms": 85.06766683422029,
+    "over_20ms_percent": 1.8218623481781375
+  }
+]

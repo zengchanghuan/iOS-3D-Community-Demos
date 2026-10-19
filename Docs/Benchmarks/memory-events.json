@@ -1,0 +1,122 @@
+[
+  {
+    "elapsed_s" : 0.0055673748720437288,
+    "phase" : "baseline",
+    "survivors" : 0
+  },
+  {
+    "survivors" : 1,
+    "elapsed_s" : 4.1188912498764694,
+    "phase" : "retained"
+  },
+  {
+    "elapsed_s" : 4.947547874879092,
+    "phase" : "retained",
+    "survivors" : 2
+  },
+  {
+    "survivors" : 3,
+    "elapsed_s" : 5.8104574999306351,
+    "phase" : "retained"
+  },
+  {
+    "elapsed_s" : 6.6599249583669007,
+    "survivors" : 4,
+    "phase" : "retained"
+  },
+  {
+    "survivors" : 5,
+    "elapsed_s" : 7.5138550833798945,
+    "phase" : "retained"
+  },
+  {
+    "phase" : "retained",
+    "survivors" : 6,
+    "elapsed_s" : 8.3694364165421575
+  },
+  {
+    "elapsed_s" : 9.2208739165216684,
+    "survivors" : 7,
+    "phase" : "retained"
+  },
+  {
+    "elapsed_s" : 10.076638625003397,
+    "survivors" : 8,
+    "phase" : "retained"
+  },
+  {
+    "survivors" : 9,
+    "elapsed_s" : 10.927263083402067,
+    "phase" : "retained"
+  },
+  {
+    "phase" : "retained",
+    "survivors" : 10,
+    "elapsed_s" : 11.764258958399296
+  },
+  {
+    "phase" : "before_release",
+    "elapsed_s" : 16.850745833246037,
+    "survivors" : 10
+  },
+  {
+    "elapsed_s" : 16.910790374968201,
+    "phase" : "released",
+    "survivors" : 0
+  },
+  {
+    "elapsed_s" : 23.082220624899492,
+    "phase" : "weak",
+    "survivors" : 0
+  },
+  {
+    "phase" : "weak",
+    "survivors" : 0,
+    "elapsed_s" : 23.938559749862179
+  },
+  {
+    "survivors" : 0,
+    "elapsed_s" : 24.789451708318666,
+    "phase" : "weak"
+  },
+  {
+    "elapsed_s" : 25.639679958345369,
+    "phase" : "weak",
+    "survivors" : 0
+  },
+  {
+    "elapsed_s" : 26.485800666734576,
+    "phase" : "weak",
+    "survivors" : 0
+  },
+  {
+    "phase" : "weak",
+    "survivors" : 0,
+    "elapsed_s" : 27.34186950000003
+  },
+  {
+    "elapsed_s" : 28.196953583275899,
+    "survivors" : 0,
+    "phase" : "weak"
+  },
+  {
+    "phase" : "weak",
+    "elapsed_s" : 29.049548041541129,
+    "survivors" : 0
+  },
+  {
+    "elapsed_s" : 29.898932666517794,
+    "phase" : "weak",
+    "survivors" : 0
+  },
+  {
+    "phase" : "weak",
+    "elapsed_s" : 30.751073208404705,
+    "survivors" : 0
+  },
+  {
+    "phase" : "finished",
+    "survivors" : 0,
+    "elapsed_s" : 30.752669124864042
+  }
+]

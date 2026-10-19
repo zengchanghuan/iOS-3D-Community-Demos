@@ -1,0 +1,93 @@
+name: Community3D
+options:
+  bundleIdPrefix: dev.community3d
+  deploymentTarget:
+    iOS: '16.0'
+packages:
+  GLTFSceneKit:
+    path: Vendor/GLTFSceneKit
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    CODE_SIGN_STYLE: Automatic
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    TARGETED_DEVICE_FAMILY: '1,2'
+targets:
+  Community3D:
+    type: application
+    platform: iOS
+    sources: [App]
+    dependencies:
+      - package: GLTFSceneKit
+      - framework: Vendor/filament/lib/libfilament.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libbackend.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libfilabridge.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libfilaflat.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libibl.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libgeometry.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libutils.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libgltfio_core.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libdracodec.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libuberarchive.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libstb.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libktxreader.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libbasis_transcoder.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libimage.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libuberzlib.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libzstd.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libfilamat.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libshaders.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libsmol-v.xcframework
+        embed: false
+      - framework: Vendor/filament/lib/libabseil.xcframework
+        embed: false
+      - sdk: Metal.framework
+      - sdk: MetalKit.framework
+      - sdk: Accelerate.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.community3d.demos
+        SWIFT_OBJC_BRIDGING_HEADER: App/Filament/Bridge.h
+        CLANG_CXX_LANGUAGE_STANDARD: c++17
+        HEADER_SEARCH_PATHS: $(SRCROOT)/Vendor/filament/include
+        OTHER_LDFLAGS: ['$(inherited)', '-lc++']
+        INFOPLIST_KEY_CFBundleDisplayName: 3D Lab
+  Community3DTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests]
+    dependencies:
+      - target: Community3D
+  Community3DUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: Community3D
+schemes:
+  Community3D:
+    build:
+      targets:
+        Community3D: all
+    test:
+      targets: [Community3DTests, Community3DUITests]
