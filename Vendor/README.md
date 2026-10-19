@@ -15,3 +15,5 @@
 To build Filament from source instead, check out exactly `v1.78.0` and follow its [build manual](https://github.com/google/filament/blob/v1.78.0/BUILDING.md) for the iOS device and simulator targets. Do not mix headers and libraries from different versions. This repository uses the official release for reproducible integration.
 
 An optional source-build entry point is provided at `Scripts/build-filament-source.sh` (requires CMake and Ninja). It builds host tools and iOS device/simulator XCFrameworks into `.build/filament-source/out/ios-release/filament`; it does not overwrite the release SDK automatically. This source-build path has not been executed as part of the current validation.
+
+本地兼容修复：GLTFUnarchiver 对 boneIndices / boneWeights 按 accessor 的 offset、stride 和 count 拷贝为紧凑缓冲区，避免 CesiumMan 共用 bufferView 的尾部纹理坐标被 SceneKit 误计入骨骼数据。由新增模型解析测试与 Fox 回归覆盖。

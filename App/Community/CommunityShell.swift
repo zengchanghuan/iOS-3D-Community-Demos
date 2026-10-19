@@ -10,6 +10,16 @@ struct LibraryModel: Identifiable, Hashable {
     let tag: String
     static let items = [
         LibraryModel(id: "fox", title: "Fox", subtitle: "把骨骼动画握在手中", symbol: "hare.fill", resource: "Fox", url: nil, tag: "3 段动画 · 离线"),
+        LibraryModel(id: "brake-rotor", title: "Brake Rotor · 制动盘", subtitle: "先临三维汽车零件扫描 · 孔位与盘面", symbol: "disc.fill", resource: "BrakeRotor", url: nil, tag: "实物扫描 · 高清 · 离线"),
+        LibraryModel(id: "planting-screw", title: "Planting Screw · 种植螺钉", subtitle: "先临三维精密扫描 · 螺纹结构", symbol: "wrench.and.screwdriver.fill", resource: "PlantingScrew", url: nil, tag: "实物扫描 · 高清 · 离线"),
+        LibraryModel(id: "impeller", title: "Impeller · 叶轮", subtitle: "先临三维工业扫描 · 曲面叶片", symbol: "fanblades.fill", resource: "Impeller", url: nil, tag: "实物扫描 · 高清 · 离线"),
+        LibraryModel(id: "tiny-gear", title: "Tiny Gear · 微型齿轮", subtitle: "先临三维精密扫描 · 齿面细节", symbol: "gearshape.2.fill", resource: "TinyGear", url: nil, tag: "实物扫描 · 高清 · 离线"),
+        LibraryModel(id: "casting-part", title: "Casting Part · 工业铸件", subtitle: "先临三维工业扫描 · 276 万三角面", symbol: "gearshape.fill", resource: "CastingPart", url: nil, tag: "实物扫描 · 高清 · 离线"),
+        LibraryModel(id: "sofa", title: "Sofa · 沙发", subtitle: "先临三维家居扫描 · 顶点色彩", symbol: "sofa.fill", resource: "Sofa", url: nil, tag: "实物扫描 · 高清 · 离线"),
+        LibraryModel(id: "stone-lion", title: "Stone Lion · 石狮", subtitle: "先临三维实物扫描 · 雕刻与纹理", symbol: "pawprint.fill", resource: "StoneLion", url: nil, tag: "实物扫描 · 高清 · 离线"),
+        LibraryModel(id: "cesium-man", title: "Cesium Man", subtitle: "人物行走与骨骼蒙皮", symbol: "figure.walk", resource: "CesiumMan", url: nil, tag: "骨骼动画 · 离线"),
+        LibraryModel(id: "avocado", title: "Avocado", subtitle: "牛油果的表面纹理与细节", symbol: "leaf.fill", resource: "Avocado", url: nil, tag: "静态贴图 · 离线"),
+        LibraryModel(id: "box-animated", title: "Animated Box", subtitle: "盒子的旋转与升降动画", symbol: "shippingbox.fill", resource: "BoxAnimated", url: nil, tag: "节点动画 · 离线"),
         LibraryModel(id: "duck", title: "Duck", subtitle: "从网络抵达你的场景", symbol: "bird.fill", resource: nil, url: "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/Duck/glTF-Binary/Duck.glb", tag: "网络模型 · GLB"),
         LibraryModel(id: "checker", title: "Material study", subtitle: "几何、贴图与空间关系", symbol: "cube.transparent.fill", resource: "Checker-PNG", url: nil, tag: "材质练习 · 离线")
     ]
@@ -139,7 +149,7 @@ private struct CommunityHome: View {
                             }.accessibilityIdentifier("model.\(item.id)")
                         }
                         NavigationLink { ModelBrowser() } label: { Label("导入自己的模型", systemImage: "square.and.arrow.down").frame(maxWidth: .infinity).padding() }.buttonStyle(.bordered)
-                        Text("3 个精选资产 · glTF 2.0 / GLB").font(.caption.monospaced()).foregroundStyle(.secondary)
+                        Text("\(LibraryModel.items.count) 个精选资产 · glTF 2.0 / GLB").font(.caption.monospaced()).foregroundStyle(.secondary)
                     }.padding(22).frame(maxWidth: 700).frame(maxWidth: .infinity)
                 }.accessibilityIdentifier("library.scroll")
                 .overlay(alignment: .topTrailing) { FPSBadge(context: "library").padding(8) }

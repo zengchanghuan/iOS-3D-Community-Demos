@@ -452,6 +452,26 @@ public class GLTFUnarchiver {
         print("==================================================")
         */
 
+        // SceneKit skinning expects tightly packed bone sources. A glTF bufferView
+        // may also contain unrelated attributes; do not pass those trailing bytes.
+        if semantic == .boneIndices || semantic == .boneWeights {
+            let width = bytesPerComponent * componentsPerVector
+            var packed = Data(capacity: vectorCount * width)
+            for vertex in 0..<vectorCount {
+                let start = dataOffset + vertex * dataStride
+                guard start >= 0, start + width <= bufferView.count else {
+                    throw GLTFUnarchiveError.DataInconsistent("bone accessor exceeds bufferView")
+                }
+                packed.append(bufferView.subdata(in: start..<start + width))
+            }
+            let source = SCNGeometrySource(data: packed, semantic: semantic, vectorCount: vectorCount,
+                usesFloatComponents: usesFloatComponents, componentsPerVector: componentsPerVector,
+                bytesPerComponent: bytesPerComponent, dataOffset: 0, dataStride: width)
+            self.accessors[index] = source
+            glAccessor.didLoad(by: source, unarchiver: self)
+            return source
+        }
+
         #if SEEMS_TO_HAVE_VALIDATE_VERTEX_ATTRIBUTE_BUG
             // Metal validateVertexAttribute function seems to have a bug, so dateOffset must be 0.
             bufferView = bufferView.subdata(in: dataOffset..<dataOffset + dataStride * vectorCount - padding)

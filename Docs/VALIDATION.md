@@ -68,3 +68,35 @@ xcodebuild -project Community3D.xcodeproj -scheme Community3D \
 ## 15:10 默认凭证调整
 
 按要求将演示账号和密码设为输入框初始值。Simulator Debug 构建成功，重新安装并目视确认两个输入框已自动填写。对应 UI 用例改为验证默认邮箱及直接登录；此小改后未重跑完整自动化套件，上述 6+2 结果属于此前版本。
+
+## 15:57 模型库扩充验证
+
+新增 CesiumMan、Avocado、BoxAnimated 的离线 GLB。修复骨骼共享缓冲区兼容问题后，7 项单元测试全部通过；新增 UI 用例逐一搜索并打开三个模型，确认节点加载完成、动画模型出现暂停按钮，并保存实际渲染截图，1 项通过。此前 3 卡片 FPS 报告是历史批次，不代表扩充后 6 卡片列表性能。
+
+## 16:26 石狮模型验证
+
+用户提供的官方 GLB 原样加入离线模型库：45,307,504 字节、1,311,640 三角形、14 个 mesh、1 张内嵌 JPEG。Simulator Debug 构建及新增模型 UI 用例通过，覆盖石狮、Cesium Man、Avocado、Animated Box。高清版未减面，未新增真机性能结论；沙发尚待文件。
+
+## 16:30 沙发模型验证
+
+官方下载的 Sofa.glb 已完整保存并加入离线列表，55,705,888 字节、15 个 mesh，颜色由浮点 COLOR_0 顶点属性提供。Simulator Debug 构建和新增模型 UI 回归通过，覆盖 Sofa、Stone Lion、Cesium Man、Avocado、Animated Box。模型库共 8 项。保留高清原件，未减面，未新增真机性能结论。
+
+### 2026-10-19 工业铸件接入
+
+`testAdditionalModels` 通过，覆盖 Casting Part、Sofa、Stone Lion、Cesium Man、Avocado、Animated Box 的列表进入与加载；动画项检查播放按钮。结果包：`/tmp/community3d-casting-ui.xcresult`。工业铸件截图见 `Screenshots/Model-casting-part.png`，90 个节点、无动画；未进行真机持续帧率或显存测试。
+
+### 2026-10-19 微型齿轮接入
+
+`testAdditionalModels` 通过（7 个模型，0 失败）；结果包 `/tmp/community3d-gear-ui.xcresult`。新增 Tiny Gear 加载与截图检查通过：39 个节点、无动画。测试结束后的可选 simctl 诊断采集被手动终止以完成归档，xcodebuild 退出码为 0。未测真机性能。
+
+### 2026-10-19 叶轮接入
+
+`testAdditionalModels` 通过，覆盖 8 个模型，0 失败；结果包 `/tmp/community3d-impeller-ui.xcresult`。叶轮截图确认几何可见，99 个节点、无动画。测试通过后终止可选 simctl 诊断采集以完成归档，xcodebuild 退出码 0。未测真机性能。
+
+### 2026-10-19 种植螺钉接入
+
+`testAdditionalModels` 通过，覆盖 9 个模型，0 失败；结果包 `/tmp/community3d-screw-ui.xcresult`。螺钉截图确认几何可见，78 个节点、无动画。测试通过后结束可选 simctl 诊断采集以完成归档，xcodebuild 退出码 0。未测真机性能。
+
+### 2026-10-19 制动盘接入
+
+`testAdditionalModels` 通过，覆盖 10 个模型，0 失败；结果包 `/tmp/community3d-brake-ui.xcresult`。制动盘截图确认几何可见，72 个节点、无动画。测试通过后结束可选 simctl 诊断采集以完成归档，xcodebuild 退出码 0。未测真机性能。

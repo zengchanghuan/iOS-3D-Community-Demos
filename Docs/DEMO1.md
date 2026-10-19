@@ -70,3 +70,9 @@ Fox 的 Survey / Walk / Run 共用关节。GLTFSceneKit 的加载流程会遍历
 - [场景加载和交互](../App/Demos/ModelBrowser.swift)
 - [缓存](../App/Core/ModelCache.swift)、[GLB 动画选取](../App/Core/ModelDocument.swift)
 - [UI 回归](../UITests/DemoUITests.swift)
+
+## 扩充离线模型库
+
+新增 Cesium Man（1 段骨骼动画）、Avocado（静态贴图）和 Animated Box（1 段节点动画），与 Fox、Duck、Material study 共 6 项。只有 Duck 需要网络，列表数量按实际数据计算。
+
+CesiumMan 暴露了 SceneKit 的骨骼数据兼容问题：JOINTS_0 与 TEXCOORD_0 共用 bufferView。解析器现在按 accessor offset、stride、count 提取独立骨骼缓冲区，保留原始资产和节点引用。回归同时验证 Fox 三段动画，避免新增人物时破坏旧模型。来源与许可见 [资源声明](../App/Resources/AdditionalModels-LICENSE.md)。

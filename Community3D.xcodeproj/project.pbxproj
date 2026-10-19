@@ -7,36 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0363BAB033A04ABACF17A816 /* StoneLion-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = C7522F108048930C13BD94A9 /* StoneLion-LICENSE.md */; };
 		06CF6C82FD10AB6FE328CFDD /* libibl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB66B5B7A4A8803E441EF2D8 /* libibl.xcframework */; };
+		0755E8FD5FADF7010019E679 /* CastingPart.glb in Resources */ = {isa = PBXBuildFile; fileRef = E5D517B75670AF85538219AA /* CastingPart.glb */; };
+		0AF03310A7EBE473DEA7115E /* CesiumMan.glb in Resources */ = {isa = PBXBuildFile; fileRef = CACA7A5E767D2203103AB45A /* CesiumMan.glb */; };
 		1673B2AB3E9790AFE63439BE /* libutils.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E039D68ED0B27833705EF4 /* libutils.xcframework */; };
 		1734F06E5FEB54275E05FE25 /* Checker-ASTC.glb in Resources */ = {isa = PBXBuildFile; fileRef = 10DB890473F3769D6F930EFE /* Checker-ASTC.glb */; };
 		1E212B1F68E0BDB9EF608F13 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F57675599892A52FA90073 /* CoreTests.swift */; };
+		1EBFAF5BDF99AB75C720BB3C /* BrakeRotor-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0164C7EE1903A1CD90806CB6 /* BrakeRotor-LICENSE.md */; };
 		27D12FDC89E44ED4DE59D180 /* FilamentSurface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7037D5D6BD0114CAC68AF8E6 /* FilamentSurface.mm */; };
 		2BA67E51D8DAF929678EE27F /* PerformanceLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFF0624B0DA07734E01B83 /* PerformanceLab.swift */; };
+		2D297E6A1EC492CB5FC7903D /* BrakeRotor.glb in Resources */ = {isa = PBXBuildFile; fileRef = E3343E7F4BF34C06D7E98984 /* BrakeRotor.glb */; };
 		2F5874E848D67DA651EC65C5 /* libfilabridge.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2293B543D67D78EB1625F /* libfilabridge.xcframework */; };
 		31ACF8E72B901B331EB738DA /* libfilament.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470DB5CEFE024D5344DF58DA /* libfilament.xcframework */; };
 		3B8E53B723B347A4F6B5D489 /* libgltfio_core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003125F0B0EA3B4AE20475D4 /* libgltfio_core.xcframework */; };
 		3CE943438A593C2355A6FF05 /* Checker-PNG.glb in Resources */ = {isa = PBXBuildFile; fileRef = 398958B350A0D77E6722E53A /* Checker-PNG.glb */; };
 		4359599DBFCDF96BF23E2B9A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236AABB542A831350E009086 /* App.swift */; };
 		483E3E7B0342DB25751F3FAC /* libgeometry.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99826C0C001DEE21439DEC /* libgeometry.xcframework */; };
+		488653A8CA5CADA2FF188C45 /* PlantingScrew-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 97B77713C4A9E4B59CE97B7F /* PlantingScrew-LICENSE.md */; };
 		48B52D7FAB43DA5244A94CF2 /* Fox-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FB5A24FB6912C27B02D3D64 /* Fox-LICENSE.md */; };
 		4AE808AAA35250A7B97674B8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C65680353631895C5B9A38C /* Accelerate.framework */; };
 		4B6F3EBAA15975ADF3C18837 /* MemoryBenchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AE34CC47187642B72BFCE /* MemoryBenchmark.swift */; };
+		51F30C0C7DC52621D8D0FAFD /* Sofa-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D687D9258140F8BD6E7EE /* Sofa-LICENSE.md */; };
+		53E3CE0ED9A101593CED1C55 /* BoxAnimated.glb in Resources */ = {isa = PBXBuildFile; fileRef = B03EB20F05F38599B01B0FC3 /* BoxAnimated.glb */; };
 		5567BE3F40C0F2049BBACFE0 /* libbasis_transcoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D719257D03568BE7CC7A9498 /* libbasis_transcoder.xcframework */; };
 		58D3B25A08254864A15F1751 /* libfilaflat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601B34B94EDAD3831FB22D5A /* libfilaflat.xcframework */; };
 		68157AC8EC59C646DECD1435 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF038E9DC0D5E8B6000E723F /* Metal.framework */; };
 		6EC6824E042D4E485053866A /* libbackend.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764F4850A8DA3E650F821C1 /* libbackend.xcframework */; };
 		718861B968479A8FA963C938 /* ModelDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6469BC78A06A2FA816213AB8 /* ModelDocument.swift */; };
+		73BB921963D9FD3486BD1BE7 /* TinyGear-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = CFC589E4CC4E8D17244B5A78 /* TinyGear-LICENSE.md */; };
+		7FAFD10440058E97F3C9DE65 /* PlantingScrew.glb in Resources */ = {isa = PBXBuildFile; fileRef = 27C415ECFB6641DC94A3A20A /* PlantingScrew.glb */; };
+		86406EF47531E48045C7EA60 /* Cesium-TRADEMARK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 003D30A369E468F36E6BF726 /* Cesium-TRADEMARK.txt */; };
 		8EC15486AC1D00D1F29E7D10 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A5CDD3677EFA411931C7A /* DemoUITests.swift */; };
 		91F9CC3EAE33E1EEF514A26C /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3BABF3F977506F9A2F6245 /* MetalKit.framework */; };
 		940F19F7E546DDA79862449C /* Checker.png in Resources */ = {isa = PBXBuildFile; fileRef = 069E5B404FE3280DC33A9D5D /* Checker.png */; };
 		9961CA91BAA801FB65520214 /* libimage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB4308AAD9F225772E828F9 /* libimage.xcframework */; };
 		9AD267322DB41019ABF38E01 /* libfilamat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A810AB54AC2F2A9A5C01B6B0 /* libfilamat.xcframework */; };
 		9DB4355295A40768E7B3AD94 /* libuberarchive.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDA0C77AA8F5568402D845 /* libuberarchive.xcframework */; };
+		9DF707724802011A0E0E3BFF /* CastingPart-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 314DA0D3BCC27175E4AC651F /* CastingPart-LICENSE.md */; };
+		A0082D249F003577B2927570 /* Impeller.glb in Resources */ = {isa = PBXBuildFile; fileRef = AB60FDB9831A04DE4848B6F1 /* Impeller.glb */; };
 		A3320F3A75885FB7C4FE54E9 /* libdracodec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A46F972B03B2C55DB89F8A /* libdracodec.xcframework */; };
 		A42C24B9EC2A0C46743DBD4E /* sh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 97AB61DFE8288D364C4DF21C /* sh.txt */; };
+		A44485E1AB10923BE0BD7156 /* StoneLion.glb in Resources */ = {isa = PBXBuildFile; fileRef = D0D2FFEE53A0F77FA0CBAC06 /* StoneLion.glb */; };
 		A51B222910CA3FEE97B5CFF1 /* GLTFSceneKit in Frameworks */ = {isa = PBXBuildFile; productRef = 17D81D5098C9E97E62D83129 /* GLTFSceneKit */; };
 		A7AAF5DD3D821726360FE28F /* TextureLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB9BC10477A9BEE66DC3B5 /* TextureLab.swift */; };
+		AA0F01A43ADDB2BBCA633F5B /* Impeller-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = B8703653F0417955F4C44C65 /* Impeller-LICENSE.md */; };
+		AB4DCF60205E49EC15D379AC /* Avocado.glb in Resources */ = {isa = PBXBuildFile; fileRef = 585A9145930A9C328BA1960E /* Avocado.glb */; };
 		B08F4D64485539C9707A671D /* libabseil.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFA3729F305CB30FC0D6C3F /* libabseil.xcframework */; };
 		B326CAABCB28AA67A1AFA469 /* Studio.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 0F093159A486A9A2344F7A56 /* Studio.hdr */; };
 		B464BA8D51DC8EDA75D1B865 /* Checker.astc in Resources */ = {isa = PBXBuildFile; fileRef = FDE175F0EB11353E12E26B57 /* Checker.astc */; };
@@ -45,12 +61,15 @@
 		C5E1B6DDB4115AE1C427181C /* Studio_skybox.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D9D336E3104091E2D9E47D39 /* Studio_skybox.ktx */; };
 		CEECCFCDF9B3067294431196 /* libktxreader.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867085C561D3D315E2383D17 /* libktxreader.xcframework */; };
 		D97301F872ECBDE0FE682462 /* libshaders.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA79887AA53D733500BD05E /* libshaders.xcframework */; };
+		D9A5FB241816A1847BB33575 /* Sofa.glb in Resources */ = {isa = PBXBuildFile; fileRef = 1DCCD6BF041DF11E5760ACC6 /* Sofa.glb */; };
 		DE6637895BB38423F59A4510 /* libstb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F6B4DAD2DE08AC441AFA29 /* libstb.xcframework */; };
 		E6B70736F8890762FF522B8B /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335A1645750F1D2078DD570 /* FPSMonitor.swift */; };
 		EA603AF8D012B671790A0740 /* DemoAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F0B2BDA09BB3493297F5 /* DemoAuth.swift */; };
+		EACA3DE6AE9E24F86AF00EBB /* TinyGear.glb in Resources */ = {isa = PBXBuildFile; fileRef = A6F049DF953CA110857DA7DD /* TinyGear.glb */; };
 		EF89149885E9812F2D5DA978 /* CommunityShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40DE99EC340D45777E4B5 /* CommunityShell.swift */; };
 		F55DCFEDAFA58B94A1A78803 /* ModelCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CA0381715D2C0167C6145 /* ModelCache.swift */; };
 		F6B02F04351374EDA518F254 /* libzstd.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139E83C0B0FF012284EA895C /* libzstd.xcframework */; };
+		FA87EC708BF720BC8861C07F /* AdditionalModels-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = DDCB70670E5A394C540AC433 /* AdditionalModels-LICENSE.md */; };
 		FB09FC0FE0E90B40BB174677 /* ModelBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59740416A396FC362E6D37 /* ModelBrowser.swift */; };
 		FCDFB1E3B1EC1B822D559C99 /* Studio_ibl.ktx in Resources */ = {isa = PBXBuildFile; fileRef = 18185CA0ED65FDEB0F8540AC /* Studio_ibl.ktx */; };
 		FF9A9D15708AAB76BAC13202 /* libuberzlib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5E6A904B5CCBE3FF7AFCA /* libuberzlib.xcframework */; };
@@ -75,6 +94,8 @@
 
 /* Begin PBXFileReference section */
 		003125F0B0EA3B4AE20475D4 /* libgltfio_core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libgltfio_core.xcframework; path = Vendor/filament/lib/libgltfio_core.xcframework; sourceTree = "<group>"; };
+		003D30A369E468F36E6BF726 /* Cesium-TRADEMARK.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Cesium-TRADEMARK.txt"; sourceTree = "<group>"; };
+		0164C7EE1903A1CD90806CB6 /* BrakeRotor-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "BrakeRotor-LICENSE.md"; sourceTree = "<group>"; };
 		04F2293B543D67D78EB1625F /* libfilabridge.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libfilabridge.xcframework; path = Vendor/filament/lib/libfilabridge.xcframework; sourceTree = "<group>"; };
 		069E5B404FE3280DC33A9D5D /* Checker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checker.png; sourceTree = "<group>"; };
 		0B3BABF3F977506F9A2F6245 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
@@ -85,9 +106,13 @@
 		139E83C0B0FF012284EA895C /* libzstd.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libzstd.xcframework; path = Vendor/filament/lib/libzstd.xcframework; sourceTree = "<group>"; };
 		18185CA0ED65FDEB0F8540AC /* Studio_ibl.ktx */ = {isa = PBXFileReference; path = Studio_ibl.ktx; sourceTree = "<group>"; };
 		1A8A5CDD3677EFA411931C7A /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
+		1B0D687D9258140F8BD6E7EE /* Sofa-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Sofa-LICENSE.md"; sourceTree = "<group>"; };
 		1BB76F1A87FFB984632B4643 /* Community3D.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Community3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDE18B78CD30D021B1E4EF3 /* FilamentSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilamentSurface.h; sourceTree = "<group>"; };
+		1DCCD6BF041DF11E5760ACC6 /* Sofa.glb */ = {isa = PBXFileReference; path = Sofa.glb; sourceTree = "<group>"; };
 		236AABB542A831350E009086 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		27C415ECFB6641DC94A3A20A /* PlantingScrew.glb */ = {isa = PBXFileReference; path = PlantingScrew.glb; sourceTree = "<group>"; };
+		314DA0D3BCC27175E4AC651F /* CastingPart-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "CastingPart-LICENSE.md"; sourceTree = "<group>"; };
 		398958B350A0D77E6722E53A /* Checker-PNG.glb */ = {isa = PBXFileReference; path = "Checker-PNG.glb"; sourceTree = "<group>"; };
 		3BAC3ED4CACE1D2F79FAA5CB /* GLTFSceneKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GLTFSceneKit; path = Vendor/GLTFSceneKit; sourceTree = SOURCE_ROOT; };
 		4304F0B2BDA09BB3493297F5 /* DemoAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuth.swift; sourceTree = "<group>"; };
@@ -95,6 +120,7 @@
 		470DB5CEFE024D5344DF58DA /* libfilament.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libfilament.xcframework; path = Vendor/filament/lib/libfilament.xcframework; sourceTree = "<group>"; };
 		4A4CA0381715D2C0167C6145 /* ModelCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCache.swift; sourceTree = "<group>"; };
 		5335A1645750F1D2078DD570 /* FPSMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSMonitor.swift; sourceTree = "<group>"; };
+		585A9145930A9C328BA1960E /* Avocado.glb */ = {isa = PBXFileReference; path = Avocado.glb; sourceTree = "<group>"; };
 		601B34B94EDAD3831FB22D5A /* libfilaflat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libfilaflat.xcframework; path = Vendor/filament/lib/libfilaflat.xcframework; sourceTree = "<group>"; };
 		6469BC78A06A2FA816213AB8 /* ModelDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDocument.swift; sourceTree = "<group>"; };
 		6CB4308AAD9F225772E828F9 /* libimage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libimage.xcframework; path = Vendor/filament/lib/libimage.xcframework; sourceTree = "<group>"; };
@@ -109,21 +135,33 @@
 		8FA5E6A904B5CCBE3FF7AFCA /* libuberzlib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libuberzlib.xcframework; path = Vendor/filament/lib/libuberzlib.xcframework; sourceTree = "<group>"; };
 		8FA80D0D80A3F97EEA710DB5 /* ControlledTextureProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlledTextureProvider.h; sourceTree = "<group>"; };
 		97AB61DFE8288D364C4DF21C /* sh.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sh.txt; sourceTree = "<group>"; };
+		97B77713C4A9E4B59CE97B7F /* PlantingScrew-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "PlantingScrew-LICENSE.md"; sourceTree = "<group>"; };
 		98E039D68ED0B27833705EF4 /* libutils.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libutils.xcframework; path = Vendor/filament/lib/libutils.xcframework; sourceTree = "<group>"; };
 		A6E0D2568B75C91516A8BC3F /* Fox.glb */ = {isa = PBXFileReference; path = Fox.glb; sourceTree = "<group>"; };
+		A6F049DF953CA110857DA7DD /* TinyGear.glb */ = {isa = PBXFileReference; path = TinyGear.glb; sourceTree = "<group>"; };
 		A810AB54AC2F2A9A5C01B6B0 /* libfilamat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libfilamat.xcframework; path = Vendor/filament/lib/libfilamat.xcframework; sourceTree = "<group>"; };
+		AB60FDB9831A04DE4848B6F1 /* Impeller.glb */ = {isa = PBXFileReference; path = Impeller.glb; sourceTree = "<group>"; };
 		AEEB9BC10477A9BEE66DC3B5 /* TextureLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLab.swift; sourceTree = "<group>"; };
+		B03EB20F05F38599B01B0FC3 /* BoxAnimated.glb */ = {isa = PBXFileReference; path = BoxAnimated.glb; sourceTree = "<group>"; };
+		B8703653F0417955F4C44C65 /* Impeller-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Impeller-LICENSE.md"; sourceTree = "<group>"; };
 		C2F6B4DAD2DE08AC441AFA29 /* libstb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libstb.xcframework; path = Vendor/filament/lib/libstb.xcframework; sourceTree = "<group>"; };
 		C3D40DE99EC340D45777E4B5 /* CommunityShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityShell.swift; sourceTree = "<group>"; };
+		C7522F108048930C13BD94A9 /* StoneLion-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "StoneLion-LICENSE.md"; sourceTree = "<group>"; };
 		C7F57675599892A52FA90073 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 		CA3613EA7FCC56C7A77F8134 /* Community3DTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = Community3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACA7A5E767D2203103AB45A /* CesiumMan.glb */ = {isa = PBXFileReference; path = CesiumMan.glb; sourceTree = "<group>"; };
 		CBFA3729F305CB30FC0D6C3F /* libabseil.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libabseil.xcframework; path = Vendor/filament/lib/libabseil.xcframework; sourceTree = "<group>"; };
 		CE99826C0C001DEE21439DEC /* libgeometry.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libgeometry.xcframework; path = Vendor/filament/lib/libgeometry.xcframework; sourceTree = "<group>"; };
+		CFC589E4CC4E8D17244B5A78 /* TinyGear-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TinyGear-LICENSE.md"; sourceTree = "<group>"; };
+		D0D2FFEE53A0F77FA0CBAC06 /* StoneLion.glb */ = {isa = PBXFileReference; path = StoneLion.glb; sourceTree = "<group>"; };
 		D719257D03568BE7CC7A9498 /* libbasis_transcoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libbasis_transcoder.xcframework; path = Vendor/filament/lib/libbasis_transcoder.xcframework; sourceTree = "<group>"; };
 		D8EDA0C77AA8F5568402D845 /* libuberarchive.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libuberarchive.xcframework; path = Vendor/filament/lib/libuberarchive.xcframework; sourceTree = "<group>"; };
 		D9D336E3104091E2D9E47D39 /* Studio_skybox.ktx */ = {isa = PBXFileReference; path = Studio_skybox.ktx; sourceTree = "<group>"; };
 		DB66B5B7A4A8803E441EF2D8 /* libibl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libibl.xcframework; path = Vendor/filament/lib/libibl.xcframework; sourceTree = "<group>"; };
+		DDCB70670E5A394C540AC433 /* AdditionalModels-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "AdditionalModels-LICENSE.md"; sourceTree = "<group>"; };
 		DE9AE34CC47187642B72BFCE /* MemoryBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryBenchmark.swift; sourceTree = "<group>"; };
+		E3343E7F4BF34C06D7E98984 /* BrakeRotor.glb */ = {isa = PBXFileReference; path = BrakeRotor.glb; sourceTree = "<group>"; };
+		E5D517B75670AF85538219AA /* CastingPart.glb */ = {isa = PBXFileReference; path = CastingPart.glb; sourceTree = "<group>"; };
 		F38A8F322ECB49A1900D745C /* Community3DUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = Community3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE175F0EB11353E12E26B57 /* Checker.astc */ = {isa = PBXFileReference; path = Checker.astc; sourceTree = "<group>"; };
 		FF038E9DC0D5E8B6000E723F /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
@@ -297,16 +335,35 @@
 		F4CAD87DE3A6E396AD08B0EB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DDCB70670E5A394C540AC433 /* AdditionalModels-LICENSE.md */,
+				585A9145930A9C328BA1960E /* Avocado.glb */,
+				B03EB20F05F38599B01B0FC3 /* BoxAnimated.glb */,
+				0164C7EE1903A1CD90806CB6 /* BrakeRotor-LICENSE.md */,
+				E3343E7F4BF34C06D7E98984 /* BrakeRotor.glb */,
+				314DA0D3BCC27175E4AC651F /* CastingPart-LICENSE.md */,
+				E5D517B75670AF85538219AA /* CastingPart.glb */,
+				003D30A369E468F36E6BF726 /* Cesium-TRADEMARK.txt */,
+				CACA7A5E767D2203103AB45A /* CesiumMan.glb */,
 				10DB890473F3769D6F930EFE /* Checker-ASTC.glb */,
 				398958B350A0D77E6722E53A /* Checker-PNG.glb */,
 				FDE175F0EB11353E12E26B57 /* Checker.astc */,
 				069E5B404FE3280DC33A9D5D /* Checker.png */,
 				0FB5A24FB6912C27B02D3D64 /* Fox-LICENSE.md */,
 				A6E0D2568B75C91516A8BC3F /* Fox.glb */,
+				B8703653F0417955F4C44C65 /* Impeller-LICENSE.md */,
+				AB60FDB9831A04DE4848B6F1 /* Impeller.glb */,
+				97B77713C4A9E4B59CE97B7F /* PlantingScrew-LICENSE.md */,
+				27C415ECFB6641DC94A3A20A /* PlantingScrew.glb */,
 				97AB61DFE8288D364C4DF21C /* sh.txt */,
+				1B0D687D9258140F8BD6E7EE /* Sofa-LICENSE.md */,
+				1DCCD6BF041DF11E5760ACC6 /* Sofa.glb */,
+				C7522F108048930C13BD94A9 /* StoneLion-LICENSE.md */,
+				D0D2FFEE53A0F77FA0CBAC06 /* StoneLion.glb */,
 				18185CA0ED65FDEB0F8540AC /* Studio_ibl.ktx */,
 				D9D336E3104091E2D9E47D39 /* Studio_skybox.ktx */,
 				0F093159A486A9A2344F7A56 /* Studio.hdr */,
+				CFC589E4CC4E8D17244B5A78 /* TinyGear-LICENSE.md */,
+				A6F049DF953CA110857DA7DD /* TinyGear.glb */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -420,15 +477,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA87EC708BF720BC8861C07F /* AdditionalModels-LICENSE.md in Resources */,
+				AB4DCF60205E49EC15D379AC /* Avocado.glb in Resources */,
+				53E3CE0ED9A101593CED1C55 /* BoxAnimated.glb in Resources */,
+				1EBFAF5BDF99AB75C720BB3C /* BrakeRotor-LICENSE.md in Resources */,
+				2D297E6A1EC492CB5FC7903D /* BrakeRotor.glb in Resources */,
+				9DF707724802011A0E0E3BFF /* CastingPart-LICENSE.md in Resources */,
+				0755E8FD5FADF7010019E679 /* CastingPart.glb in Resources */,
+				86406EF47531E48045C7EA60 /* Cesium-TRADEMARK.txt in Resources */,
+				0AF03310A7EBE473DEA7115E /* CesiumMan.glb in Resources */,
 				1734F06E5FEB54275E05FE25 /* Checker-ASTC.glb in Resources */,
 				3CE943438A593C2355A6FF05 /* Checker-PNG.glb in Resources */,
 				B464BA8D51DC8EDA75D1B865 /* Checker.astc in Resources */,
 				940F19F7E546DDA79862449C /* Checker.png in Resources */,
 				48B52D7FAB43DA5244A94CF2 /* Fox-LICENSE.md in Resources */,
 				C36B87D3B3584DDE4BEE2325 /* Fox.glb in Resources */,
+				AA0F01A43ADDB2BBCA633F5B /* Impeller-LICENSE.md in Resources */,
+				A0082D249F003577B2927570 /* Impeller.glb in Resources */,
+				488653A8CA5CADA2FF188C45 /* PlantingScrew-LICENSE.md in Resources */,
+				7FAFD10440058E97F3C9DE65 /* PlantingScrew.glb in Resources */,
+				51F30C0C7DC52621D8D0FAFD /* Sofa-LICENSE.md in Resources */,
+				D9A5FB241816A1847BB33575 /* Sofa.glb in Resources */,
+				0363BAB033A04ABACF17A816 /* StoneLion-LICENSE.md in Resources */,
+				A44485E1AB10923BE0BD7156 /* StoneLion.glb in Resources */,
 				B326CAABCB28AA67A1AFA469 /* Studio.hdr in Resources */,
 				FCDFB1E3B1EC1B822D559C99 /* Studio_ibl.ktx in Resources */,
 				C5E1B6DDB4115AE1C427181C /* Studio_skybox.ktx in Resources */,
+				73BB921963D9FD3486BD1BE7 /* TinyGear-LICENSE.md in Resources */,
+				EACA3DE6AE9E24F86AF00EBB /* TinyGear.glb in Resources */,
 				A42C24B9EC2A0C46743DBD4E /* sh.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

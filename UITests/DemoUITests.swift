@@ -35,6 +35,26 @@ final class DemoUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["关闭详情页后仍存活：0"].exists)
         screenshot("Performance", app)
     }
+    func testAdditionalModels() {
+        let app = XCUIApplication()
+        app.launch()
+        app.buttons["01 · 模型浏览与骨骼动画"].tap()
+        login(app)
+        for (query, id, animated) in [("Brake", "brake-rotor", false), ("Planting", "planting-screw", false), ("Impeller", "impeller", false), ("Tiny", "tiny-gear", false), ("Casting", "casting-part", false), ("Sofa", "sofa", false), ("Stone", "stone-lion", false), ("Cesium", "cesium-man", true), ("Avocado", "avocado", false), ("Animated", "box-animated", true)] {
+            let search = app.textFields["library.search"]
+            search.tap()
+            search.typeText(query)
+            app.scrollViews["library.scroll"].swipeUp()
+            app.buttons["model.\(id)"].tap()
+            XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "个节点")).firstMatch.waitForExistence(timeout: 20))
+            if animated { XCTAssertTrue(app.buttons["暂停动画"].exists) }
+            screenshot("Model-\(id)", app)
+            app.navigationBars.buttons.element(boundBy: 0).tap()
+            app.scrollViews["library.scroll"].swipeDown()
+            app.buttons["清空搜索"].tap()
+        }
+    }
+
     func testLoginGalleryAndScroll() {
         let app = XCUIApplication()
         app.launchArguments = ["--capture-fps"]

@@ -107,3 +107,23 @@ Demo 1 默认填入演示账号和密码，直接点击“登录工作室”即�
 ## 资源署名
 
 Fox：PixelMannen（模型，CC0）；tomkranis（绑定/动画，CC BY 4.0）；AsoboStudio / scurest（glTF 转换，CC BY 4.0）。[来源](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/Fox) · [完整署名](App/Resources/Fox-LICENSE.md)。模型未修改，运行时仅选择动画。Checker 和 studio HDR 为本仓库原创可复现资源。
+
+## Demo 1 模型库
+
+现有 6 个模型：Fox、Cesium Man（人物骨骼动画）、Avocado（牛油果贴图）、Animated Box（旋转与升降动画）、Duck（网络加载）、Material study。除 Duck 外均随 App 离线提供，支持搜索和离线筛选。新增资产约 8.2 MiB，来源、许可和 SHA256 见 [模型许可](App/Resources/AdditionalModels-LICENSE.md)。
+
+<img src="Docs/Screenshots/Model-cesium-man.png" width="250" alt="Cesium Man 骨骼动画" /> <img src="Docs/Screenshots/Model-avocado.png" width="250" alt="Avocado 贴图模型" />
+
+新增 **Stone Lion · 石狮**（SHINING 3D 实物扫描），当前模型库共 7 项。高清原始 GLB 约 43.2 MiB，离线可用；可搜索“石狮”或“Stone”。[来源及接入记录](Docs/SCANNED_MODELS.md)
+
+新增 **Sofa · 沙发**（SHINING 3D / Einstar Vega 扫描），模型库共 8 项。53.1 MiB 高清 GLB 离线提供，使用顶点颜色；可搜索“沙发”或“Sofa”。
+
+新增 **Casting Part · 工业铸件**（SHINING 3D / Combo+ Wireless 扫描），模型库现在共 **9 项**。74.8 MiB 高清原版 GLB，约 276 万三角面，可搜索“Casting”或“铸件”。[资产记录与许可](Docs/SCANNED_MODELS.md)。
+
+新增 **Tiny Gear · 微型齿轮**（SHINING 3D），模型库共 **10 项**。31.6 MiB 高清原版，约 123 万三角面，支持搜索“Tiny”或“齿轮”。
+
+新增 **Impeller · 叶轮**（SHINING 3D），模型库共 **11 项**。高清原版离线提供，可搜索“叶轮”或“Impeller”。[资产与许可记录](Docs/SCANNED_MODELS.md)。
+
+新增 **Planting Screw · 种植螺钉**（SHINING 3D），模型库共 **12 项**。高清原版离线提供，可搜索“螺钉”或“Planting”。[资产与许可记录](Docs/SCANNED_MODELS.md)。
+
+新增 **Brake Rotor · 制动盘**（SHINING 3D），模型库共 **13 项**。高清原版离线提供，可搜索“制动盘”或“Brake”。[资产与许可记录](Docs/SCANNED_MODELS.md)。
